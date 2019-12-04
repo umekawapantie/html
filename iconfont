@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WDNMD</title>
+    <link rel="stylesheet" href="./iconfont_test/iconfont.css">
+
+    <!-- <link rel="stylesheet" href="//at.alicdn.com/t/font_1541713_spxm5h0e6o.css"> -->
+     <style type="text/css">
+    .emoji{
+        font-size: 50px;
+    } 
+     </style> 
+</head>
+<body>
+        <p>I <span class="iconfont icon--heart "></span> u</p>
+
+    <!-- <div class="box">
+        <i class="emoji iconfont icon--happy"></i>
+    </div> -->
+</body>
