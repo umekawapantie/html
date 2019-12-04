@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title><b>银行信用卡申请表</b></title>
+        <style>
+            table {
+			border-collapse: collapse;
+			border: 2px;
+			border: solid;
+			height: 680px;
+			width: 600px;
+			table-layout:fixed ;
+			}
+        .border-wid{border: 1px solid;}
+        tr{
+            text-align: center;border: 1px;
+        }
+        tr,th,td{
+            border: 1px;
+            border:solid;
+            text-align: center;
+        }
+        </style>
+    </head>
+    <body>
+        <table border="1px">
+           <tr>
+               <td colspan="6">信用卡申请表</td>
+           </tr> 
+           <tr>
+               <td colspan="6">（主卡持卡人基本信息）</td>
+           </tr>
+           <tr>
+               <td>办理银行</td>
+               <td colspan="5">思沃银行</td>
+           </tr>
+           <tr>
+               <td>name     </td>
+               <td>         </td>
+               <td>sex      </td>
+               <td> </td>
+               <td>education</td>
+               <td> </td>
+           </tr>
+           <tr>
+               <td>phone number</td>
+               <td></td>
+               <td>e-mail</td>
+               <td colspan="3"></td>
+           </tr>
+           <tr>
+               <td>id card</td>
+               <td colspan="5"></td>
+            </tr>
+           <tr>
+               <td>id card address</td>
+               <td colspan="5"></td>
+            </tr>
+            <tr>
+                <td>Expiration date</td>
+                <td></td>
+                <td>issuing authority</td>
+                <td></td>
+            </tr>
+            <tr>
+                    <td>address</td>
+                    <td colspan="3"></td>
+                    <td>check in time</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>housing style</td>
+                    <td colspan="3">1.self built 2.mortgage 3.relative 4.hire</td>
+                    <td>residence phone</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>company name</td>
+                    <td colspan="5"></td>
+                </tr>
+                <tr>
+                    <td>company address</td>
+                    <td colspan="5"></td>
+                </tr>
+                <tr>
+                    <td>company phone</td>
+                    <td></td>
+                    <td>department</td>
+                    <td></td>
+                    <td>position</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>working years</td>
+                    <td></td>
+                    <td>annual income</td>
+                    <td colspan="3"></td>
+                </tr>
+                <tr>
+                    <td>still working at company</td>
+                    <td colspan="5"></td>
+                </tr>
+                <tr>
+                    <td>immediate family</td>
+                    <td></td>
+                    <td>relation</td>
+                    <td></td>
+                    <td>phone number</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>friend contact</td>
+                    <td></td>
+                    <td>phone number</td>
+                    <td colspan="3"></td>
+                </tr>
+                <tr>
+                    <td>remark</td>
+                    <td colspan="5">
+                    1、附加身份证复印件，如有行驶证附加复印件！<br/>
+                    2、办理此银行需本人亲自去柜台激活卡片！<br/>
+                    3、此表格中的内容全部必填，字迹需工整、清楚！为提高下卡率，资料最好填之前办卡信息一致！（住宅和单位）
+                    </td>
+                </tr>
+            </table>
+
+        </table>
+    </body>
+</html>
