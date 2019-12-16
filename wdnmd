@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WDNMD</title>
+    <link rel="stylesheet" href="./iconfont_test/iconfont.css">
+
+    
+     <style type="text/css">
+    #logo{
+    width: 100px;
+    height: 50px;
+    padding: 50px 40px 0px;
+    }
+    #login{
+    width: 300px;
+    height: 450px;
+    margin: 0px auto 0;
+    padding: 60px 50px 0px;
+    background-color:
+    #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 8px
+    rgba(0, 0, 0, 0.53);
+    float: center;
+}
+    #header{
+        text-align: center;
+        font-family:  Courier, monospace;
+        font-size: 20px;
+        font-style: color=#ea6f5a;
+        border-bottom: #ea6f5a 2px solid;
+        padding: 0px 30px 0px;
+        color:#969696 ;
+        
+    }
+    body{
+        background-color:#f1f1f1;
+    }
+    .input{
+        width: 300px;
+        height: 50px;
+        border-radius: 4px 4px 0px 0px;
+        border:1px solid #c8c8c8;
+        margin: 50px auto 0px;
+        padding: 0px 4px;
+        color: #999;   
+    }
+    .button{
+        width: 300px;
+        height: 50px;
+        padding: 0px 4px;
+        border-radius: 25px;
+        margin: 20px 4px;
+        background-color: #187cb7;
+        font-size: 18px ;
+        color: #fff;
+    }
+    .jizhuwo{
+       margin: 10px auto 10px; 
+       color: #999;
+    }
+    .bottem{
+        text-align: center;
+        font-size: 10px;
+        color: #b5b5b5; 
+    }
+    .bottem_logo{
+        width: 300px;
+        height: 30px;
+        margin: 0px auto;
+        font-size: 30px;
+        float: left;
+    }
+     </style> 
+</head>
+<body>
+    <div id="logo"><img src="https://cdn2.jianshu.io/assets/web/logo-58fd04f6f0de908401aa561cda6a0688.png" width="100px"></div>
+    <div id="login">
+    <div style="text-align: center;"><span id="header">登录</span><b>·</b><span id="header">注册</span></div>
+    <div><input class="input" placeholder="手机号或邮箱" type="text"></div>
+    <div><input class="input" placeholder="密码" type="text" style="margin: 0px auto 0px; border-radius: 0px 0px 4px 4px;"></div>
+    <div class="jizhuwo"><input type="checkbox" value="false" checked="checked"> <span>记住我</span> <span style="float: right;"><a href="http://www.baidu.com" target="_blank">忘记密码？</a></span></div>
+    <div class=""><button class="button">发 射</button></div>
+    <div class="bottem"><h2>社交帐号登录</h2></div>
+    <div class="bottem_logo">
+    <span class="iconfont icon-social-_logo-facebook" style="margin: 0px 30px;"></span>
+    <span class="iconfont icon-social-_logo-twitter" style=" margin:0px 30px;"></span>
+    <span class="iconfont icon-social-_logo-github" style="margin: 0px 30px;"></span>
+    </div>
+</body>
