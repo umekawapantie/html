@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WD</title>
+    <link rel="stylesheet" href="./iconfont_test/iconfont.css">
+
+    
+     <style type="text/css">
+     #logo{
+    width: 100px;
+    height: 50px;
+    padding: 50px 40px 0px;
+    }
+    #login{
+    width: 300px;
+    height: 500px;
+    margin: 0px auto 0;
+    padding: 60px 50px 0px;
+    background-color:
+    #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 8px
+    rgba(0, 0, 0, 0.53);
+    float: center;
+}
+body{
+        background-color:#f1f1f1;
+    }
+    .input{
+        width: 300px;
+        height: 50px;
+        border-radius: 4px 4px 0px 0px;
+        border:1px solid #c8c8c8;
+        margin: 50px auto 0px;
+        padding: 0px 4px;
+        color: #999;   
+    }
+    .button{
+        width: 300px;
+        height: 50px;
+        padding: 0px 4px;
+        border-radius: 25px;
+        margin: 20px 4px;
+        background-color: #3db922;
+        font-size: 18px ;
+        color: #fff;
+    }
+    .jizhuwo{
+       margin: 10px auto 10px; 
+       color: #999;
+    }
+    .bottem{
+        text-align: center;
+        font-size: 10px;
+        color: #b5b5b5; 
+    }
+    .bottem_logo{
+        width: 300px;
+        height: 30px;
+        margin: 0px auto;
+        font-size: 30px;
+        float: left;
+    }
+    #hr{
+        
+    }
+    #header1{
+        text-align: center;
+        font-family:  Courier, monospace;
+        font-size: 20px;
+        font-style: color=#ea6f5a;
+        margin: 0px 30px 0px;
+        color:#ea6f5a ;
+        border-bottom:#ea6f5a 2px solid ;
+        
+    }
+    #header{
+        text-align: center;
+        font-family:  Courier, monospace;
+        font-size: 20px;
+        font-style: color=#ea6f5a;
+        margin: 0px 30px 0px;
+        color:#969696 ;
+    }
+    #header:hover{
+
+        border-bottom: #ea6f5a 2px solid;
+    }
+</style>
+</head>
+    <body>
+        <div id="logo"><img src="https://cdn2.jianshu.io/assets/web/logo-58fd04f6f0de908401aa561cda6a0688.png" width="100px"></div>
+        <div id="login">
+        <div style="text-align: center;"><span id="header">登录</span><b>·</b><span id="header1">注册</span></div>
+        <div><input class="input" placeholder="你的昵称" type="text"></div>
+        <div><input class="input" placeholder="手机号或邮箱" type="text" style="margin: 0px auto 0px; border-radius: 0px 0px 0px 0px;"></div>
+        <div><input class="input" placeholder="密码" type="text" style="margin: 0px auto 0px; border-radius: 0px 0px 4px 4px;"></div>
+        <div class=""><button class="button">注 册</button></div>
+        <div class="bottem">点击 “注册” 即表示您同意并愿意遵守简书
+            <a href="www.baidu.com">用户协议</a> 和 <a href="www.baidu.com">隐私政策</a> 。</div>
+        <div class="bottem"><h2>社交帐号注册</h2></div>
+        <div class="bottem_logo">
+        <span class="iconfont icon-social-_logo-facebook" style="margin:0px 0px 0px 100px;"></span>
+        <span class="iconfont icon-social-_logo-twitter" style=" margin:0px 30px;"></span>
+        </div>
+    </body>
