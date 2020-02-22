@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>NASA</title>
+        <style>
+            #logo{
+            width: 110px;
+            margin: 11px;
+            }
+            #header{
+                font-size: 14px;
+                line-height: 1.42857143;
+                color:#333;
+                width: auto;
+                height: auto;
+                float: initial;
+                font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+                margin: 14px 73px 0;
+                background:url(https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/starfield-banner.jpg);
+                position: relative;
+            }
+            #navgation2{
+	font-size: 1.47em;
+	font-weight: normal;
+	position: relative;
+	z-index: 1;
+    text-align: center;
+    font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+            #navgation2text{
+                text-decoration: none; 
+                color: #ffffff;
+                font-size: 14px;
+                padding: 10px 15px;
+                background-color: #555;
+                margin-right: -3px;
+            }       
+            #navgation2text:hover{
+                background-color: #888;
+            }    
+            #searchblank{
+                font-size: 14px;
+                line-height: 1.42857143;
+                font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+                margin:15px 60px 0 0;
+	            width: 110px;
+	            color: #fff;
+	            position: absolute;
+	            top: 0;
+	            right: 0;
+	            background: none;
+	            padding: 10px 36px 10px 10px;
+                border: #888;
+                background-color: rgb(66, 66, 66);
+                float: right;
+            }
+            #navgation1text{
+                font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+                padding: 30px 14px;
+                color: #fff;
+                font-size: 18px;
+                padding: 10px 10px;
+                border-right: 2px solid grey;
+            }
+            #navgation1text:hover{
+                background-color: #15418c;
+            }
+            #navgation1postion{
+                position: absolute;
+                top: 23px;
+                left: 332px;
+            }
+            #bottembutton{
+                color:white;
+                font-size: 17px;
+                font-weight: 600;
+                padding-top: 8px;
+                margin: 0 70px;
+                height: 40px;
+                background-color: #15418c;
+                width: auto;
+                text-align: center;
+            }
+            #bottembutton:hover{
+                background-color: #5d7fb9
+            }
+            #bottompostion{
+                position: relative;
+                left: 70px;
+                right: 70px;
+                width: 1364px;
+            }
+            #bottomtext{
+                position: relative;
+                left: -6px;
+                bottom: 59px;
+                color: white;
+                width: 250px;
+                font-size: 14px;
+            }
+            #bottomtext2{
+                position: relative;
+                left: -372px;
+                bottom: 40px;
+                color: white;
+                width: 250px;
+                font-size: 14px;
+            }
+            #bottomtext3{
+                float: right;
+                margin-left: 30px;
+                width: auto;
+                color: #5d7fb9;
+                font-size: 12px;
+                position: relative;
+                top: 80px;
+            }
+            #bottomtext3:hover{
+                border-bottom: 2px solid #5d7fb9;
+            }
+        </style>
+    </head>
+    <body style="background-color: black;">
+        <div id="header">
+            <img src="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg">
+                <input placeholder="Search" id="searchblank">
+            <div id="navgation1postion">
+                <span id="navgation1text">Missons</span>
+                <span id="navgation1text">Galleries</span>
+                <span id="navgation1text">NASA TV</span>
+                <span id="navgation1text">Follow NASA</span>
+                <span id="navgation1text">Downloads</span>
+                <span id="navgation1text">About</span>
+                <span id="navgation1text">NASA Audiences</span>
+            </div>
+            <span id="navgation2" style="margin-left: 80px;"><a href="http://www.nasa.gov" id="navgation2text">Human in space</a></span>
+            <span id="navgation2"><a href="http://www.nasa.gov" id="navgation2text">Moon to Mars</a></span>
+            <span id="navgation2"><a href="http://www.nasa.gov" id="navgation2text">Earth</a></span>
+            <span id="navgation2"><a href="http://www.nasa.gov" id="navgation2text">SpaceTech</a></span>
+            <span id="navgation2"><a href="http://www.nasa.gov" id="navgation2text">Filght</a></span>
+            <span id="navgation2"><a href="http://www.nasa.gov" id="navgation2text">Solar System and Beyond</a></span>
+            <span id="navgation2"><a href="http://www.nasa.gov" id="navgation2text">STEM Eagagement</a></span>
+            <span id="navgation2"><a href="http://www.nasa.gov" id="navgation2text">History</a></span>
+            <span id="navgation2"><a href="http://www.nasa.gov" id="navgation2text">benefits to You</a></span>
+        </div>
+        <div style="width: auto;height: 500px;">wdnmd</div>
+        <div id="bottembutton">
+            MORE STORIES
+        </div>
+        <div id="bottompostion">
+            <img src="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg"style="width:80px; height:65px; margin:20px 10px;">
+            <span id="bottomtext">National Aeronautics and Space Administration NASA</span>
+            <span id="bottomtext2">NASA Official: Brian Dunbar</span>
+            <span id="bottomtext3">Contact NASA</span>
+            <span id="bottomtext3">Contact NASA</span>
+        </div>
+    </body>
+</html>
